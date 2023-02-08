@@ -19,3 +19,9 @@ p names
 names.unshift ("Tom")
 names.unshift ("Joe")
 p names
+
+# calls out last instance of array of 4 items
+p age[3]
+
+# calls out the first instance in any array
+p look[0]
