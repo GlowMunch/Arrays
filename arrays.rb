@@ -25,3 +25,14 @@ p age[3]
 
 # calls out the first instance in any array
 p look[0]
+
+# tells how many items are in array
+ p height_meters.length
+ p height_meters.count
+ p height_meters.size
+
+# delete an instance at a particular index
+p age
+puts "age.deleete_at(2)"
+p age.delete_at(2)
+p age
